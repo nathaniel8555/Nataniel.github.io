@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Announcements Section */
+.container.mt-5 {
+    margin-top: 50px;
+}
+
+/* Heading */
+h2.text-center.mb-4 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Announcement List Styles */
+.list-group-item {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+
+.list-group-item h5 {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-group-item p.mb-1 {
+    font-size: 14px;
+}
+
+.list-group-item small {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer small {
+    font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .list-group-item h5 {
+        font-size: 16px;
+    }
+
+    .list-group-item p.mb-1 {
+        font-size: 13px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
